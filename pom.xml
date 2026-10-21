@@ -51,6 +51,18 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- EXPLICIT OVERRIDE: Byte Buddy for Java 25 Support -->
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.17.5</version>
+        </dependency>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy-agent</artifactId>
+            <version>1.17.5</version>
+        </dependency>
+
         <!-- Spring Boot Actuator for exposing metrics -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
